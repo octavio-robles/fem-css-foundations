@@ -1,0 +1,53 @@
+:root{
+    --color-primary: #FF7B54;
+    --color-text-on-primary: #FFFFFF;
+    --font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--color-primary);
+    color:var(--color-text-on-primary);
+    font-family: var(--font-family);
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 6fr 36px;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo nav shopping-cart";
+    align-items: center;    
+    padding: 0 60px;
+}
+
+.header__link{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav{
+    display: inline-block;
+    justify-self: end;    
+}
+
+.nav__list{
+    display: flex;
+    list-style: none;        
+}
+
+.nav__list-item{
+    font-size: 20px;
+    margin-inline-end: 36px;
+}
+
+
+
+
+
+
+a{
+    color:inherit;
+    text-decoration: inherit;
+}
+
+
+
