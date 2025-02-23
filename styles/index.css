@@ -1,3 +1,11 @@
 @import "./base.css";
 
 
+.home .main__heading {
+  font-size: 128px;
+  font-weight: bold;  
+}
+
+.home .main__subheading {
+  font-size: 40px;  
+}
