@@ -1,6 +1,7 @@
 :root{
     --color-primary: #FF7B54;
     --color-text-on-primary: #FFFFFF;
+    --color-text-on-secondary: #000000;
     --font-family: 'Inter', sans-serif;
     --color-button-border: var(--color-text-on-primary);
     --color-button-primary-bg: var(--color-text-on-primary);
@@ -63,7 +64,8 @@ a{
     text-decoration: inherit;
 }
 
-p{
+p,
+h2{
     margin: 0;
 }
 

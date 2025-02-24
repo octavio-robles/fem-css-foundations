@@ -9,3 +9,17 @@
 .home .main__subheading {
   font-size: 40px;  
 }
+
+@media (width < 1220px) {
+  .home .main__heading {
+    font-size: 70px;
+  }  
+  
+}
+
+@media (width < 590px) {
+  .home .main__heading {
+    font-size: 40px;
+  }
+  
+}
